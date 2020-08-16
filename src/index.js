@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import { render } from 'react-dom';
 import './index.css';
-import App from './components/app';
+import App from './app';
 import * as serviceWorker from './serviceWorker';
 import { location, forecasts } from './data/forecast.json';
 
 
-ReactDOM.render(<App location={location} forecast={forecasts} />, document.getElementById('root'));
+ReactDOM.render(<App location={location} forecasts={forecasts} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

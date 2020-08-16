@@ -1,0 +1,7 @@
+.forecast-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: yellow 10px solid;
+    
+}
